@@ -5,14 +5,14 @@ $:.unshift lib unless $:.include?(lib)
 require 'syslogger'
  
 Gem::Specification.new do |s|
-  s.name                      = "syslogger"
+  s.name                      = "syslogger-alex"
   s.version                   = Syslogger::VERSION
   s.platform                  = Gem::Platform::RUBY
   s.required_ruby_version     = '>= 1.8'
   s.required_rubygems_version = ">= 1.3"
-  s.authors                   = ["Cyril Rohr"]
-  s.email                     = ["cyril.rohr@gmail.com"]
-  s.homepage                  = "http://github.com/crohr/syslogger"
+  s.authors                   = ["Cyril Rohr", "alex"]
+  s.email                     = ["cyril.rohr@gmail.com", "crhym3@gmail.com"]
+  s.homepage                  = "http://github.com/crhym3/syslogger"
   s.summary                   = "Dead simple Ruby Syslog logger"
   s.description               = "Same as SyslogLogger, but without the ridiculous number of dependencies and with the possibility to specify the syslog facility"
   
